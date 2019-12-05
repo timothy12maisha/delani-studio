@@ -17,5 +17,9 @@ h2{
 h3{
     text-align: center;
     font-family: 'Poiret One', cursive;
-    
+
+}
+ul{
+    font-family: 'Poiret One', cursive;
+    font-size: small;
 }
