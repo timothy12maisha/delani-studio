@@ -60,9 +60,12 @@ div {
     color: white;
 }
 #whatwedo{
-    height: 400px;
+    height: 300px;
 }
 ul{
-    padding: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.list1{
     text-align: center;
 }
