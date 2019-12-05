@@ -75,4 +75,16 @@ ul{
     height: 350px;
     background-image: url('/IP3/assets/backgrounds/c_image.jpg');
     color: white;
+    padding: 50px;
+}
+#Email{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    color: black;
+}
+#largeinput{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    color: black;
+    height: 100px;
 }
