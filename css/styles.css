@@ -178,13 +178,14 @@ ul {
 }
 
 input[type=text] {
-    width: 100%;
+    width: 96%;
     padding: 40px 20px;
     margin: 0px 0;
     box-sizing: border-box;
     border: 2px solid whitesmoke;
     border-radius: 4px;
     background-color: transparent;
+    margin: 25px;
 }
 
 #name {
