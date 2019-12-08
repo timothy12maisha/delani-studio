@@ -16,6 +16,7 @@ h2 {
     text-align: center;
     font-family: 'Dancing Script', cursive;
     text-shadow: 1px 2px 3px;
+    color: white;
 }
 
 h3 {
@@ -29,14 +30,15 @@ ul {
     font-family: 'Poiret One', cursive;
     font-size: small;
 }
-#mouse{
+
+#mouse {
     margin-bottom: -280px;
 }
 
 #name {
     font-family: 'Poiret One', cursive;
     font-size: 20px;
-    color: black;
+    color: white;
 }
 
 /* div {
@@ -44,7 +46,7 @@ ul {
     background-size: 100%;
     background-repeat: no-repeat;
 } */
-.container-fluid{
+.container-fluid {
     background-image: url('/IP3/assets/backgrounds/h_img.jpg');
     height: 700px;
     background-repeat: no-repeat;
@@ -53,10 +55,12 @@ ul {
     overflow: hidden;
 
 }
-.container-fluid h1{
+
+.container-fluid h1 {
     margin: 2%;
 }
-#services{
+
+#services {
     background-image: url('/IP3/assets/backgrounds/s_image.jpg');
     height: 250px;
     padding: 50px;
@@ -65,62 +69,69 @@ ul {
     overflow: hidden;
 
 }
-.servicetext{
+
+.servicetext {
     color: white;
 }
 
-ul{
+ul {
     padding: 20px;
     text-align: center;
 }
-.list1{
+
+.list1 {
     text-align: center;
     margin: 0%;
 
 }
-#porfolio{
+
+#porfolio {
     height: 500px;
 
 }
-#contactform{
+
+#contactform {
     height: 350px;
     background-image: url('/IP3/assets/backgrounds/c_image.jpg');
-    color: white;
     padding: 50px;
     overflow: hidden;
 }
-#Email{
+
+#Email {
     font-family: 'Poiret One', cursive;
     font-size: 20px;
-    color: black;
+    color: whitesmoke;
 }
-#largeinput{
+
+#largeinput {
     font-family: 'Poiret One', cursive;
     font-size: 20px;
-    color: black;
-    height: 100px;
+    opacity: 100%;
 }
-.row{
+
+.row {
     margin: 2%;
 }
-#footer{
+
+#footer {
     align-items: center;
     margin: 5%;
-    padding-left: 300px;
+    padding-left: 350px;
 }
-.footer{
-    padding-left: 500px;
-}
-.designparagraph{
+
+.designparagraph {
     display: none;
 }
-.productparagraph{
+
+.productparagraph {
     display: none;
 }
-.devparagraph{
+
+.devparagraph {
     display: none;
 }
-#image1{
+
+/* #image1{
  
 
 }
@@ -130,33 +141,66 @@ ul{
 }
 #image3{
   
-}
-#design{
+} */
+#design {
     display: none;
     text-align: center;
 }
-#development{
+
+#development {
     display: none;
     text-align: center;
 }
-#productmanagement{
+
+#productmanagement {
     display: none;
     text-align: center;
 }
-#header{
+
+#header {
     font-family: 'Poiret One', cursive;
     font-size: 15px;
     color: black;
 }
-#header1{
+
+#header1 {
     font-family: 'Poiret One', cursive;
     font-size: 15px;
     color: black;
     margin-left: -20px;
 }
-#header2{
+
+#header2 {
     font-family: 'Poiret One', cursive;
     font-size: 15px;
     color: black;
     margin-left: -40px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 40px 20px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+#name {
+    box-sizing: border-box;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+#Email {
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+::-webkit-input-placeholder {
+    color: whitesmoke !important;
 }
