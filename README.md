@@ -22,9 +22,9 @@ My website is compatible mainly with desktop and not well responsive on phone an
 
 ## Technologies Used
 
-1.HTML5 
-2.CSS3
-3.GIT (For version control)
+- HTML5 
+- CSS3
+- GIT (For version control)
 
 ## Support and contact details
 
