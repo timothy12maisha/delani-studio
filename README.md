@@ -6,7 +6,7 @@
 
 ## Description
 
-This is the Delani studio website that has i tried creating a replica of an existing delani studio website done by johny Govish github.
+This is the Delani studio website for the company that does software design, development and product management.
 
 ## Behaviour Driven Development
 1.Landing Page
