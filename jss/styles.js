@@ -1,7 +1,17 @@
 $(document).ready(function(){
-    $("#text").hide();
-    $(".imgtoggle ,.imgtoggle1").click(function(){
-        $("#text").toggle();
-        $("imgtoggle").toggle();
+    $("#design").hide();
+    $("#development").hide();
+    $("#productmanagement").hide();
+    $("#image1, #design").click(function(){
+        $("#design").toggle();
+        $("#image1").toggle();
+    });
+    $("#image2, #development").click(function(){
+        $("#development").toggle();
+        $("#image2").toggle();
+    });
+    $("#image3,#productmanagement ").click(function(){
+        $("#productmanagement").toggle();
+        $("#image3").toggle();
     });
 });
