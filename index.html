@@ -11,15 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
     <title>DELANI STUDIO</title>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="/jss/styles.js"></script>
 </head>
 
 <body>
@@ -59,21 +53,18 @@
             </strong></p>
     </div>
 
-    <div id="whatwedo" class="card">
+    <div>
         <h2>WHAT WE DO</h2>
         <div class="row">
             <ul id="image1" class="col-4"><img src="/IP3/assets/services_icons/design_icon.png" alt="design"></ul>
             <ul id="image2" class="col-4"><img src="/IP3/assets/services_icons/dev_icon.png" alt="dev"></ul>
             <ul id="image3" class="col-4"><img src="/IP3/assets/services_icons/product_icon.png" alt="products"></ul>
-        </div>
-        <div class="row" class="list1">
             <ul class="col-4"><strong>DESIGN</strong></ul>
             <ul class="col-4"><strong>DEVELOPMENT</strong></ul>
             <ul class="col-4"><strong>PRODUCT MANAGEMENT</strong></ul>
         </div>
-        <div class="row" class="list1">
-            <ul class="col-4"><strong>DESIGN</strong>
-                <div id="designtotoggle">
+        <div class="row">
+            <ul class="col-4" id="design" >
                     <p>Our design offers a full range of services including brand
                         strategy, interaction and visual design and user
                         experience testing.
@@ -84,39 +75,34 @@
                         feedback and work with you to make sure what gets
                         built is what is needed.
                     </p>
-                </div>
             </ul>
-            <ul class="col-4"><strong>DEVELOPMENT</strong>
-                <div id="devtotoggle">
+            <ul class="col-4" id="development" >
                     <p>All engineers are fluent in the latest enterprise,
-                        mobile and web development technologies. 
+                        mobile and web development technologies.
                     </p>
                     <p>
-                        They collaborate with your team to write, 
-                        and improve code on a daily basis, using 
-                        proven practices such as test-driven 
+                        They collaborate with your team to write,
+                        and improve code on a daily basis, using
+                        proven practices such as test-driven
                         development and pair programming.
                     </p>
-
-                </div></ul>
-            <ul class="col-4"><strong>PRODUCT MANAGEMENT</strong>
-            <div id="producttotoggle">
-                <p>
-                PLanning and development is iterative. Because we are constantly 
-                coding and testing, the products we build are always 
-                ready to go live
-                </p>
-                <p>
-                    The iterative process allows for changes as business requirements
-                    evolve.
-                </p>
-
-            </div></ul>
+            </ul>
+            <ul class="col-4" id="productmanagement" >
+                    <p>
+                        PLanning and development is iterative. Because we are constantly
+                        coding and testing, the products we build are always
+                        ready to go live
+                    </p>
+                    <p>
+                        The iterative process allows for changes as business requirements
+                        evolve.
+                    </p>
+            </ul>
         </div>
     </div>
 
 
-    <div id="portfolio" class="card">
+    <div id="portfolio">
         <h2>PORTFOLIO</h2>
         <div class="row">
             <ul class="col-3"><img src="/IP3/assets/portfolio/work4.jpg" alt="" width="100%"></ul>
@@ -144,27 +130,24 @@
         </div>
 
     </div>
-    <div id="footer" class="card">
-        <div>
-            <img src="/IP3/assets/social_icons/behance.png" alt="" srcset="">
-            <img src="/IP3/assets/social_icons/dribble.png" alt="" srcset="">
-            <img src="/IP3/assets/social_icons/facebook.png" alt="" srcset="">
-            <img src="/IP3/assets/social_icons/flickr.png" alt="" srcset="">
-            <img src="/IP3/assets/social_icons/g_plus.png" alt="" srcset="">
-            <img src="/IP3/assets/social_icons/pinterest.png" alt="" srcset="">
-            <img src="/IP3/assets/social_icons/skype.png" alt="" srcset="">
-            <img src="/IP3/assets/social_icons/stumble_upon.png" alt="" srcset="">
-            <img src="/IP3/assets/social_icons/twitter.png" alt="" srcset="">
-            <img src="/IP3/assets/social_icons/you_tube.png" alt="" srcset="">
-        </div>
-        <footer class="footer"><strong>
-                <p>@TIMOTHY MAINA KIHARA</p>
-                <P>CONTACTS : +254713131056</P>
-                <P><em>&copy; 2019 All Rights Reserved</em></P>
-            </strong>
-        </footer>
-
+    <div id="footer">
+        <img src="/IP3/assets/social_icons/behance.png" alt="" srcset="">
+        <img src="/IP3/assets/social_icons/dribble.png" alt="" srcset="">
+        <img src="/IP3/assets/social_icons/facebook.png" alt="" srcset="">
+        <img src="/IP3/assets/social_icons/flickr.png" alt="" srcset="">
+        <img src="/IP3/assets/social_icons/g_plus.png" alt="" srcset="">
+        <img src="/IP3/assets/social_icons/pinterest.png" alt="" srcset="">
+        <img src="/IP3/assets/social_icons/skype.png" alt="" srcset="">
+        <img src="/IP3/assets/social_icons/stumble_upon.png" alt="" srcset="">
+        <img src="/IP3/assets/social_icons/twitter.png" alt="" srcset="">
+        <img src="/IP3/assets/social_icons/you_tube.png" alt="" srcset="">
     </div>
+    <footer class="footer"><strong>
+            <p>@TIMOTHY MAINA KIHARA</p>
+            <P>CONTACTS : +254713131056</P>
+            <P><em>&copy; 2019 All Rights Reserved</em></P>
+        </strong>
+    </footer>
 
 
 </body>

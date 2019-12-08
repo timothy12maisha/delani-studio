@@ -68,10 +68,7 @@ ul {
 .servicetext{
     color: white;
 }
-#whatwedo{
-    height: 350px;
-    overflow: hidden;
-}
+
 ul{
     padding: 20px;
     text-align: center;
@@ -109,5 +106,39 @@ ul{
 #footer{
     align-items: center;
     margin: 5%;
+    padding-left: 300px;
+}
+.footer{
+    padding-left: 500px;
+}
+.designparagraph{
+    display: none;
+}
+.productparagraph{
+    display: none;
+}
+.devparagraph{
+    display: none;
 }
 
+#whatwedo{
+    
+}
+#image1{
+
+}
+#image2{
+
+}
+#image3{
+
+}
+#design{
+    display: none;
+}
+#development{
+    display: none;
+}
+#productmanagement{
+    display: none;
+}
