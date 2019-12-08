@@ -15,3 +15,20 @@ $(document).ready(function(){
         $("#image3").toggle();
     });
 });
+$(document).ready(function(){
+    $("#img1").hover(function(){
+      $(this).css("color", "white");
+      }, function(){
+      $(this).css("color", "gray");
+    });
+  });
+
+// $(document).ready(function(){ 
+//     $("#img1").hover(
+//       function(){
+//         $(this).next().css("visibility","visible");
+//        }, function(){
+//         $(this).next().css("visibility","hidden");
+//        }
+//     );
+// });
