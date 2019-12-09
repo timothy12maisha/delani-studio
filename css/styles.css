@@ -205,18 +205,21 @@ input[type=text] {
 ::-webkit-input-placeholder {
     color: whitesmoke !important;
 }
-#whatwedo{
+
+#whatwedo {
     text-align: center;
     font-family: 'Dancing Script', cursive;
     text-shadow: 1px 2px 3px;
     color: black;
 }
+
 img:hover {
     opacity: 0.5;
-    filter: alpha(opacity=50); 
-  }
-  .button {
-    background-color:burlywood;
+    filter: alpha(opacity=50);
+}
+
+.button {
+    background-color: burlywood;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -227,5 +230,4 @@ img:hover {
     margin: 4px 2px;
     cursor: pointer;
     margin-left: 40px;
-    border-radius: 10px;
-  }
+}
